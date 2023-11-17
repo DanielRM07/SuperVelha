@@ -1,0 +1,90 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5 de nov. de 2023, 02:37:28
+    Author     : Daniel
+*/
+
+/*RIGHT*/
+.botaoDeJogo:disabled{
+    -fx-background-color: -botao-cor-bg-disabled;
+    -fx-text-align: center;
+}
+
+.botaoTopRight{
+    -fx-background-color: -botao-cor-bg;
+    -fx-border-style: solid;
+    -fx-border-width: 5px;
+    -fx-border-color:linear-gradient(from 49% 49% to 50% 50%, -botao-cor-sem-borda 0%, -botao-cor-com-borda 49%);
+    
+}
+.botaoCenterRight{
+    -fx-background-color: -botao-cor-bg;
+    -fx-border-style: solid;
+    -fx-border-width: 5px;
+    -fx-border-color:linear-gradient(from 10% 0% to 11% 0%, -botao-cor-sem-borda 0%, -botao-cor-com-borda 10%);
+    
+}
+.botaoBottomRight{
+    -fx-background-color: -botao-cor-bg;
+    -fx-border-style: solid;
+    -fx-border-width: 5px;
+    -fx-border-color:linear-gradient(from 49% 50% to 50% 49%, -botao-cor-sem-borda 0%, -botao-cor-com-borda 49%);
+    
+}
+/*MIDDLE*/
+.botaoTopMiddle{
+    -fx-background-color: -botao-cor-bg;
+    -fx-border-style: solid;
+    -fx-border-width: 5px;
+    -fx-border-color:linear-gradient(from 0% 10% to 0% 11%, -botao-cor-sem-borda 0%, -botao-cor-com-borda 10%);
+    
+}
+.botaoCenterMiddle{
+    -fx-background-color: -botao-cor-bg;
+    -fx-border-style: solid;
+    -fx-border-width: 5px;
+    -fx-border-color: -botao-cor-com-borda;
+    
+}
+.botaoBottomMiddle{
+    -fx-background-color: -botao-cor-bg;
+    -fx-border-style: solid;
+    -fx-border-width: 5px;
+    -fx-border-color:linear-gradient(from 0% 90% to 0% 89%, -botao-cor-sem-borda 90%, -botao-cor-com-borda 89%);
+    
+}
+
+/*LEFT*/
+.botaoTopLeft{
+    -fx-background-color: -botao-cor-bg;
+    -fx-border-style: solid;
+    -fx-border-width: 5px;
+    -fx-border-color:linear-gradient(from 50% 49% to 49% 50%, -botao-cor-sem-borda 49%, -botao-cor-com-borda 0%);
+    
+}
+.botaoCenterLeft{
+    -fx-background-color: -botao-cor-bg;
+    -fx-border-style: solid;
+    -fx-border-width: 5px;
+    -fx-border-color:linear-gradient(from 90% 0% to 89% 0%, -botao-cor-sem-borda 0%, -botao-cor-com-borda 10%);
+    
+}
+.botaoBottomLeft{
+    -fx-background-color: -botao-cor-bg;
+    -fx-border-style: solid;
+    -fx-border-width: 5px;
+    -fx-border-color:linear-gradient(from 50% 50% to 49% 49%, -botao-cor-sem-borda 49%, -botao-cor-com-borda 0%);
+    
+}
+
+
+
+*{
+    -botao-cor-bg: #8aa;
+    -botao-cor-sem-borda: #f990;
+    -botao-cor-com-borda: #000;
+    -botao-cor-bg-disabled: #404;
+}
